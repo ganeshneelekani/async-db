@@ -11,6 +11,5 @@ services:
     - ./test_data/user_data_schema.sql.gz:/home/user_data_schema.sql.gz
     - ./test_data/sample_data:/home/sample_data  
     - ./test_data/pg_setup.sh:/docker-entrypoint-initdb.d/02-pg_setup.sh
-  
     ports:
       - "5432:5432"
