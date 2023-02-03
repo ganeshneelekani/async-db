@@ -8,8 +8,8 @@
                  [org.slf4j/slf4j-log4j12 "2.0.6" :extension "pom"]
                  [org.postgresql/postgresql "42.5.2"]
                  [mysql/mysql-connector-java "8.0.11"] 
-                 [org.clojure/java.jdbc "0.7.12"]]
-  
+                 [com.github.seancorfield/honeysql "2.4.972"]
+                 [com.github.seancorfield/next.jdbc "1.3.847"]] 
   :main ^:skip-aot async-db.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
