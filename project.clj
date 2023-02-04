@@ -9,7 +9,8 @@
                  [org.postgresql/postgresql "42.5.2"]
                  [mysql/mysql-connector-java "8.0.11"] 
                  [com.github.seancorfield/honeysql "2.4.972"]
-                 [com.github.seancorfield/next.jdbc "1.3.847"]] 
+                 [com.github.seancorfield/next.jdbc "1.3.847"] 
+                 [org.clojure/core.async "1.6.673"]] 
   :main ^:skip-aot async-db.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
